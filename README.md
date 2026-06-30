@@ -75,4 +75,4 @@ About 2 hours.
 
 Deployed app URL: To be added after deployment.
 
-GitHub repository URL: To be added before submission.
+GitHub repository URL: https://github.com/farhan10ansari/mini-task-tracker
