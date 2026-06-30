@@ -166,18 +166,18 @@ Only start this section after all required features, README, AI_USAGE, lint, and
 ## 12. Deployment And Submission
 
 - [x] Push final code to GitHub.
-- [ ] Deploy the app.
-- [ ] Confirm deployed URL is accessible without local setup.
-- [ ] Add deployed app URL to `README.md`.
+- [x] Deploy the app.
+- [x] Confirm deployed URL is accessible without local setup.
+- [x] Add deployed app URL to `README.md`.
 - [x] Confirm repository URL is ready to share.
 - [ ] Final submission checklist:
-  - [ ] App is deployed and accessible.
+  - [x] App is deployed and accessible.
   - [x] GitHub repo is shared.
-  - [ ] `README.md` is included.
-  - [ ] `AI_USAGE.md` is included.
-  - [ ] Create task works.
-  - [ ] View task list works.
-  - [ ] Complete task works.
-  - [ ] Filter works.
-  - [ ] Search works.
-  - [ ] Validation works.
+  - [x] `README.md` is included.
+  - [x] `AI_USAGE.md` is included.
+  - [x] Create task works.
+  - [x] View task list works.
+  - [x] Complete task works.
+  - [x] Filter works.
+  - [x] Search works.
+  - [x] Validation works.

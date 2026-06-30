@@ -73,6 +73,6 @@ About 2 hours.
 
 ## Deployment
 
-Deployed app URL: To be added after deployment.
+Deployed app URL: https://mini-task-tracker-black.vercel.app/
 
 GitHub repository URL: https://github.com/farhan10ansari/mini-task-tracker
