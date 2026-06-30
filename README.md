@@ -1,36 +1,78 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Mini Task Tracker
 
-## Getting Started
+A small task tracker application built for the assignment. Users can create tasks, view the list, mark open tasks as completed, filter by status, and search by task title.
 
-First, run the development server:
+## Tech Stack
+
+- Next.js App Router
+- React
+- TypeScript
+- Tailwind CSS
+- Browser `localStorage` for persistence
+
+## Features
+
+- Create tasks with title and description.
+- Validate that title is not empty.
+- View task title, description, status, and created date.
+- Mark open tasks as completed.
+- Filter tasks by All, Open, and Completed.
+- Search tasks by title.
+- Keep tasks saved in the same browser with `localStorage`.
+- Responsive layout for desktop and mobile screens.
+
+## How To Run Locally
+
+Install dependencies:
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+pnpm install
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Start the development server:
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```bash
+pnpm dev
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Open [http://localhost:3000](http://localhost:3000) in your browser.
 
-## Learn More
+## How To Run Checks
 
-To learn more about Next.js, take a look at the following resources:
+Run lint:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+```bash
+pnpm lint
+```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+Run a production build:
 
-## Deploy on Vercel
+```bash
+pnpm build
+```
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+There is no automated test suite in this version. I verified the main flows manually and with lint/build checks.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## Known Limitations
+
+- Tasks are stored in browser `localStorage`, so they are only available on the same browser and device.
+- There is no authentication or multi-user support.
+- Clearing browser site data removes saved tasks.
+- There is no backend database, so this is not intended as a production persistence model.
+
+## What I Would Improve With More Time
+
+- Add edit and delete actions.
+- Add due dates and priority.
+- Add a small automated test suite for task creation, validation, filtering, searching, and completion.
+- Add server-side persistence with SQLite, PostgreSQL, MongoDB, Supabase, or Firebase.
+
+## Approximate Time Spent
+
+About 2 hours.
+
+## Deployment
+
+Deployed app URL: To be added after deployment.
+
+GitHub repository URL: To be added before submission.
